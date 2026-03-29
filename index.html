@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonilla Landscaping | Premium Outdoor Transformations</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">BONILLA <span>LANDSCAPING</span></a>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" data-i18n="nav-home">Home</a></li>
+                <li><a href="#services" data-i18n="nav-services">Services</a></li>
+                <li><a href="#about" data-i18n="nav-about">About</a></li>
+                <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="lang-toggle" class="lang-btn">ES</button>
+                <div class="menu-btn" id="menu-btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="reveal" data-i18n="hero-title">Transforming Outdoor Spaces</h1>
+            <p class="reveal" data-i18n="hero-subtitle">Professional landscaping you can trust</p>
+            <div class="hero-btns reveal">
+                <a href="tel:3463899435" class="btn btn-primary" data-i18n="btn-call">Call Now</a>
+                <a href="#services" class="btn btn-outline" data-i18n="btn-view-services">Our Services</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container about-content reveal">
+            <div class="about-text">
+                <h2 data-i18n="about-title">Why Choose Us?</h2>
+                <p data-i18n="about-p1">At Bonilla Landscaping, we believe your outdoor space is an extension of your home. With years of experience and a passion for excellence, we provide high-quality landscaping services that combine beauty with functionality.</p>
+                <p data-i18n="about-p2">Reliability, quality, and professional integrity are the pillars of our business. Whether it's a small yard refresh or a major transformation, we treat every project with the same level of care and precision.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label" data-i18n="stat-experience">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">500+</span>
+                        <span class="stat-label" data-i18n="stat-projects">Projects Done</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section bg-light">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 data-i18n="services-title">Our Premium Services</h2>
+                <p data-i18n="services-subtitle">Comprehensive solutions for all your landscaping needs</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service Cards -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="fence"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-fences-t">Fences</h3>
+                        <p data-i18n="s-fences-d">High-quality wood and metal fencing to secure and beautify your property.</p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="hard-hat"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-concrete-t">Concrete</h3>
+                        <p data-i18n="s-concrete-d">Durable driveways, walkways, and patios designed to last.</p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="droplets"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-drain-t">Drain</h3>
+                        <p data-i18n="s-drain-d">Professional drainage systems to protect your landscape from water damage.</p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="smile"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-playground-t">Playground</h3>
+                        <p data-i18n="s-playground-d">Safe and fun outdoor play areas for families and communities.</p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="leaf"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-mulch-t">Mulch</h3>
+                        <p data-i18n="s-mulch-d">Premium mulching services to improve soil health and aesthetic appeal.</p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="scissors"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-trim-t">Trim</h3>
+                        <p data-i18n="s-trim-d">Expert tree and hedge trimming for a clean and healthy look.</p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="shovel"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-yardwork-t">Yard Work</h3>
+                        <p data-i18n="s-yardwork-d">General maintenance to keep your yard looking its best year-round.</p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="waves"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-pressure-t">Pressure Washing</h3>
+                        <p data-i18n="s-pressure-d">Deep cleaning for surfaces to restore their original beauty.</p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="mountain"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-stone-t">Stone</h3>
+                        <p data-i18n="s-stone-d">Elegant stonework for walls, paths, and decorative features.</p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="layout-grid"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 data-i18n="s-brick-t">Brick</h3>
+                        <p data-i18n="s-brick-d">Classic brick masonry for a timeless and sturdy landscape design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-card reveal">
+                <div class="contact-text">
+                    <h2 data-i18n="contact-title">Ready to Transform Your Landscape?</h2>
+                    <p data-i18n="contact-subtitle">Contact us today for a free estimate and professional advice.</p>
+                </div>
+                <div class="contact-actions">
+                    <a href="tel:3463899435" class="phone-display">346-389-9435</a>
+                    <div class="btn-group">
+                        <a href="tel:3463899435" class="btn btn-primary" data-i18n="btn-call">Call Now</a>
+                        <a href="https://wa.me/13463899435" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/13463899435" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i data-lucide="message-circle"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <a href="#home" class="logo">BONILLA <span>LANDSCAPING</span></a>
+                <p data-i18n="footer-desc">Professional landscaping services focused on quality and reliability.</p>
+            </div>
+            <div class="footer-contact">
+                <h4 data-i18n="footer-contact-h">Contact</h4>
+                <p>346-389-9435</p>
+                <p>Houston, TX & Surrounding Areas</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="year"></span> BONILLA LANDSCAPING. <span data-i18n="footer-rights">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
